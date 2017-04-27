@@ -10,6 +10,7 @@ import * as fs from 'fs';
 })
 export class AppComponent {
   title = 'app works!';
+  public hero: any = {};
 
   // constructor() {
   //   // Check if nodeJs childProcess is correctly injected (see externals in webpack.config.js)
